@@ -206,3 +206,11 @@ Brake.IsDriverEmergencyBrakingDetected:
   description: Indicates if emergency braking initiated by driver is detected.
                True = Emergency braking detected. False = Emergency braking not detected.
   comment: Detection of emergency braking can trigger Emergency Brake Assist (EBA) to engage.
+
+slope:
+  datatype: uint8
+  type: sensor
+  min: -100
+  max: 100
+  unit: percent
+  description: slope describes if a vehicle is standing or moving upwards (positive slope) or downwards (negative slope)
